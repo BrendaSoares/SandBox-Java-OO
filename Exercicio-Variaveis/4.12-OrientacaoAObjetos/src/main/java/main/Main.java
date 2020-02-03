@@ -1,6 +1,6 @@
 package main;
 
-import Service.ServicoConta;
+import service.ServicoConta;
 import model.Conta;
 
 public class Main {
