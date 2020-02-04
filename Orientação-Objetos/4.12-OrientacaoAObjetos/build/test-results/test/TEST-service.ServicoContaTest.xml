@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="service.ServicoContaTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-04T18:02:52" hostname="ilegra0229" time="0.016">
+  <properties/>
+  <testcase name="depositar" classname="service.ServicoContaTest" time="0.015"/>
+  <testcase name="sacar" classname="service.ServicoContaTest" time="0.001"/>
+  <testcase name="adicionar" classname="service.ServicoContaTest" time="0.0"/>
+  <testcase name="calculaRendimento" classname="service.ServicoContaTest" time="0.0"/>
+  <system-out><![CDATA[
+Deposito Efetuado com Sucesso!
+Seu saldo atual é: 1500.0
+
+Saque Efetuado com Sucesso!
+Seu Saldo atual é: 300.0
+
+Seu rendimento mensal é: 50.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
