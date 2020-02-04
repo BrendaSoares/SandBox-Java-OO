@@ -11,8 +11,8 @@ public class Main {
 
         ServicoConta servicoConta = new ServicoConta();
 
-        servicoConta.depositar(conta, 500.0);
-        servicoConta.sacar(conta, 100.0);
-        servicoConta.calculaRendimento(conta);
+//        servicoConta.depositar(conta, 500.0);
+//        servicoConta.sacar(conta, 100.0);
+//        servicoConta.calculaRendimento(conta);
     }
 }
