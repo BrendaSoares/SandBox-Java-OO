@@ -1,0 +1,6 @@
+
+Modificadores de Acesso:
+
+public = Qualquer um pode alterar.
+protected = Somente acessado pela própria classe, subclasses e classes no mesmo pacote.
+private = Somente acessível pela própria classe.
