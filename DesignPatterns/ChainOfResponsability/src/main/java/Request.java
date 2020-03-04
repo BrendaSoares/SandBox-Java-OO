@@ -7,7 +7,15 @@ public class Request {
         return message;
     }
 
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
     public RequestType getType() {
         return type;
+    }
+
+    public void setType(RequestType type) {
+        this.type = type;
     }
 }

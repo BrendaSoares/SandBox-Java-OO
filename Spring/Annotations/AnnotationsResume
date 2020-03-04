@@ -1,0 +1,72 @@
+Annotations:
+
+@Requiered:
+	- Precisa que algo seja injetada no atributo citado, se não, não irá funcionar.
+
+@Autowired
+	- Força o bean a injetar onde esta a notação. Spring advinha o que será injetado.
+
+@Configuration
+	- Define os beans através de código ao invés de XML.
+
+@Bean
+	- Define um bean através de um código.
+
+@Service
+	- Dizer que a classe é uma Service (Classe de negócio).
+
+@Controller
+	- Dizer que a classe é uma Controller.
+
+@Repository
+	- Persistência de dados (Ex. DAO).
+
+@Lazy
+	- (Lazy, pattern).
+
+@Value
+	- Injetar um valor específico. Ex.String.
+
+@Scope
+	- Singleton, Prototype.
+
+@Component
+	- Para qualquer bean genérica que tenha processamento.
+
+@PostConstruct
+	- Colocado em metodos somente void e publico. Roda o construtor e depois o metodo com a notação.
+
+@PreDestroy
+	- Roda o metodo antes de destruir o contexto de Spring.
+
+@Inject
+	- (Mesmo que o Autowired) 
+
+@Named
+	- Injetar por nome da bean.
+
+@Profile
+	- Colocado encima da bean, ProfileBean ou ProfileProject, um só roda em ambiente local e outro em produção (Bom para Testes).
+
+@NotNull
+ 	- Anotação de validação. Não aceita valor Nulo, se for colocado da exception. (Tirando uso do if).
+
+@Size
+	- Para definir tamanho de Caracteres.
+
+@Min
+	- Para definir o minímo de Caracteres.
+
+@ContextConfiguration
+	- Onde é feita a configuração das Beans.
+
+@ActiveProfiles
+	- Ambientes Ativos.
+
+@RollBack
+	- (Para testes principalmente) - Ex. Teste de integração, não sujar o banco de dados ao fazer testes.
+
+@Timed
+	- Define um tempo para o programa ser executado, se não da exception.
+
+
