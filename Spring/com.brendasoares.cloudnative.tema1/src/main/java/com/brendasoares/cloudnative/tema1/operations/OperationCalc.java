@@ -1,4 +1,4 @@
-package com.brendasoares.cloudnative.tema1;
+package com.brendasoares.cloudnative.tema1.operations;
 
 public interface OperationCalc {
 
